@@ -1,0 +1,74 @@
+<!Doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>CSS3 Button Generator</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+  
+<body>
+  
+<div class="container">
+  <h2 class="text-center">CSS3 Button Generator</h2>
+  <div class="row">
+    <div class="col">     
+      <h3 class="text-center">Border-radius</h3>
+      
+      <div class="row">
+        <div class="col-5 text-center">
+          <button class="btn btn-primary" id="increase-radius">
+            <img src="img/glyphicons-214-arrow-up.png" alt="">
+          </button>
+          <button class="btn btn-primary" id="reduce-radius">
+            <img src="img/glyphicons-213-arrow-down.png" alt="">
+          </button>
+        </div>
+        
+        <div class="col-7 text-center">
+          <div class="input-group">
+            <span class="input-group-addon">step</span>
+            <input class="form-control" id="step" type="text" value="1">
+          </div>
+        </div>
+      </div>
+      
+      <h3 class="text-center">Color</h3>
+      <div class="input-group">
+        <span class="input-group-addon">Background</span>
+        <input class="form-control jscolor" id="bg-color" type="text" value="1474cc">
+      </div>
+      <div class="input-group">
+        <span class="input-group-addon">Border</span>
+        <input class="form-control jscolor" id="border-color" type="text" value="0d0477">
+      </div>      
+    </div>
+    
+    <div class="col">
+      <h3 class="text-center">Result</h3>
+      <div class="create"></div>
+    </div>
+    <div class="col text-center">
+      <h3 class="text-center">Your CSS</h3>
+      <textarea id="code-result" cols="30" rows="5"></textarea>
+    </div>
+  </div>
+</div>    
+    
+    
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/jscolor/jscolor.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

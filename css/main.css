@@ -1,0 +1,21 @@
+.col {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  
+  min-height: 200px;  
+  
+  background-color: #efefef;
+}
+
+.create {
+  margin: 50px auto;
+  border: 1px solid #0d0477;
+  
+  height: 40px;
+  width: 140px;  
+  
+  background-color: #1474cc;  
+}
