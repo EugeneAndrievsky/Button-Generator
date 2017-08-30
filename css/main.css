@@ -2,6 +2,23 @@ h2 {
   margin: 30px;
 }
 
+.btn {
+  width: 45px;
+  height: 40px;
+}
+
+.btn--up {
+  background-image: url("../img/glyphicons-214-arrow-up.png");  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn--down {
+  background-image: url("../img/glyphicons-213-arrow-down.png");  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .col {
   padding-top: 25px;
   padding-bottom: 25px;
