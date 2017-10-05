@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<section class="container game-bundle">
+  <h3>В комплект входят</h3>
+
+  <div class="game-item  col-sm-8">
+    <a class="row  flex-sm-nowrap" href="http://store.steampowered.com/app/378648/The_Witcher_3_Wild_Hunt__Blood_and_Wine/">
+      <div class="game-image-preview col-sm-4">
+        <img src="img/bow.jpg" width="184" height="69" alt="">
+      </div>
+      <div class="game-description col-sm-8 row">
+        <h4 class="game-title">The Witcher 3: Wild Hunt - Blood and Wine</h4>
+        <span class="game-cost  col-12" id="baw-price">799р.</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="game-item col-sm-8">
+    <a class="row flex-sm-nowrap" href="http://store.steampowered.com/app/378649/The_Witcher_3_Wild_Hunt__Hearts_of_Stone/">
+      <div class="game-image-preview col-sm-4 ">
+        <img src="img/hos.jpg" width="184" height="69" alt="">
+      </div>
+      <div class="game-description row col-sm-8 ">
+        <h4 class="game-title ">The Witcher 3: Wild Hunt - Hearts of Stone</h4>
+        <span class="game-cost  col-12" id="hos-price">799р.</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="game-item col-sm-8 ">
+    <a class="row flex-sm-nowrap " href="http://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/">
+      <div class="game-image-preview col-sm-4">
+        <img src="img/wh.jpg" width="184" height="69" alt="">
+      </div>
+      <div class="game-description row col-sm-8">
+        <h4 class="game-title">The Witcher 3: Wild Hunt</h4>
+        <span class="game-cost  col-12" id="wh-price">799р.</span>
+      </div>
+    </a>
+  </div>
+
+  <div class="game-total col-sm-8">
+    <div class=" game-order   row  justify-content-end no-gutters">
+      <p class="col-7">Стоимость товаров по отдельности:</p>
+      <span class="game-cost" id="total-price">1500</span>
+      <p class="col-7">Стоимость комплекта:</p>
+      <span class="game-cost" id="bundle-price">1000</span>
+    </div>
+
+    <div class="game-economy row justify-content-between">
+      <p class="">Купив этот товар, вы сэкономите:</p>
+      <span class="game-cost" id="eco-price">1500</span>
+    </div>
+  </div>
+
+<!--
+  <div class="game-sale  col-sm-8">
+    <h2>У нас акция!</h2>
+    <p>До
+      <span class="game-sale-decor" id="date">8</span>
+      <span class="game-sale-decor" id="month">месяца</span> берите всё со скидкой
+      <span class="game-sale-decor" id="discount">17</span>
+    </p>
+    <p>Новая цена всего
+      <span class="game-sale-decor--price"><span id="sale-price">900</span></span>  
+    </p>
+    <p>предложение действительно еще
+      <span class="game-sale-decor" id="days">5</span> дней до
+      <span class="game-sale-decor" id="days">среды</span>
+    </p>
+  </div>
+-->
+  
+  <div class="game-sale  col-sm-8" id="elSale">
+    <h2>Акция закончилась :(</h2>
+  </div>
+
+</section>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<script src="witcher.js"></script>
+<script src="witcher_sale.js"></script>
+
+</body>
+
+</html>

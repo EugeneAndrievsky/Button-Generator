@@ -1,0 +1,126 @@
+body {
+  background-color: rgba(22, 38, 52, 0.98);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  max-width: 184px;
+  -ms-align-self: center;
+  align-self: center;
+}
+
+.game-bundle {
+  color: skyblue;
+}
+
+.game-item {
+  margin-bottom: 10px;
+  background-color: rgba(16, 16, 39, 0.43);
+}
+
+.game-item:hover {
+  background-color: rgba(16, 16, 39, 0.8);
+}
+
+.game-description {
+  padding-right: 0;
+}
+
+.game-title {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+
+.game-cost {
+  padding: 0;
+  color: #bbb;
+  text-align: right;
+}
+
+.game-total {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background-color: rgba(16, 16, 39, 0.43)
+}
+
+.game-order {
+  margin-bottom: 20px;
+}
+
+.game-order p {
+  color: #bbb;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.game-economy {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 14px;
+  line-height: 28px;
+  border-radius: 2px;
+  background-color: black;
+  color: #A3CF06;
+}
+
+.game-economy p {
+  margin: 0;
+}
+
+.game-economy .game-cost {
+  width: 140px;
+  color: inherit;
+  background: url(http://store.edgecast.steamstatic.com/public/images/v6/package_arrow.png) top left no-repeat;
+}
+
+.game-sale {
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  background-color: rgba(16, 16, 39, 0.43);
+}
+
+.game-sale h2 {
+  margin-bottom: 20px;
+}
+
+.game-sale p {
+  margin-bottom: 10px;
+}
+
+.game-sale-decor {
+  font-size: 1.3em;
+  color: #52bafc;
+}
+
+.game-sale-decor--price {
+  padding: 0 6px;
+  padding-bottom: 3px;
+  border-radius: 3px;
+  
+  font-size: 1.3em;
+  
+  color: #a3cf06;
+  background-color: black;
+}
+
+
+@media (max-width: 575px) {
+  
+  .game-bundle {
+/*    width: 320px;*/
+  }
+  .game-image-preview {
+    margin-bottom: 15px;
+  }
+  .game-title {
+    font-size: 16px;
+  }
+  
+}
