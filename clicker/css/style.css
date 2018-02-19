@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "Myriad pro";
+  src: url(../fonts/myriadpro-regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Myriad pro", "Arial", sans-serif;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.clicker {
+  width: 500px;
+  margin: 0 auto;
+  padding: 50px 0;
+
+  text-align: center;
+}
+
+.field {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+  background-image: url('../img/cat.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.field:active {
+  background-size: 200%;
+}
+
+.btn {
+  font: inherit;
+}
